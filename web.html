@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WELCOME TO IUH_TEAM  </title>
+  </head>
+  <style>
+    h1 {
+      color: rgb(160, 169, 214);
+      font-family: verdana;
+      font-size: 300%;
+    
+    }
+    p  {
+      color: rgb(14, 77, 136);
+      font-family: courier;
+      font-size: 160%;
+    }
+    </style>
+ <body>
+  <style>
+    body{background-color: rgb(225, 201, 223);}
+  </style>
+  <h1>WELCOME!!!</h1>
+  <p>Click on the "Choose File" button to upload a file:</p>
+
+  <!DOCTYPE html>
+<html>
+<body>
+
+<audio id="myAudio" controls>
+  <source src="D:\THI\eProject\e212b95f-3acc-4518-8080-d4474161854a.mp3" type="audio/mp3">
+  <source src="D:\THI\eProject\e212b95f-3acc-4518-8080-d4474161854a.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the button to add a new text track.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The addTextTrack method is not supported in any major browsers.</p>
+
+<script>
+var x = document.getElementById("myAudio");
+function myFunction() { 
+  var y = x.addTextTrack("caption");
+  y.addCue(new TextTrackCue("Test text", 01.000, 04.000,"","","",true));
+} 
+</script>
+
+</body>
+</html>
+</body>
+</html>
